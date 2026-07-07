@@ -27,7 +27,7 @@ zero during weekends to spikes on weekday mornings.
 
 ## Architecture Overview
 
-![Architecture Diagram](./architecture.png)
+![Architecture Diagram](./architecture01-3.png)
 
 **Services chosen:**
 - **API Gateway** — HTTPS endpoint, routing, throttling

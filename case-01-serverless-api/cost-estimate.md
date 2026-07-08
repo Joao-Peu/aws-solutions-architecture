@@ -62,4 +62,4 @@ for event-driven workloads.
 ## Calculator Reference
 
 Estimates exported from AWS Pricing Calculator on 2026-07-07.
-JSON source files available in `.\calculator` folder.
+JSON source files available in the [`calculator/`](./calculator/) folder.

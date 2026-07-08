@@ -1,0 +1,148 @@
+{
+  "id": "c04e5bb1-0505-4fb7-a669-b1168cac1b56",
+  "name": "cena1",
+  "createdAt": "7 de julho de 2026 às 20:34 (UTC-3:00)",
+  "expiresAt": "7 de agosto de 2027 às 20:34 (UTC-3:00)",
+  "rateType": "BEFORE_DISCOUNTS",
+  "rateTimestamp": "7 de julho de 2026 às 20:34 (UTC-3:00)",
+  "status": "VALID",
+  "totalCostHistorical": 0,
+  "totalCostEstimated": 0.08263118000000001,
+  "currency": "USD",
+  "exportCreatedAt": "7 de julho de 2026 às 20:56 (UTC-3:00)",
+  "items": [
+    {
+      "serviceCode": "AWSLambda",
+      "usageType": "Request",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "04b9563a-4cb6-448c-9e02-475deab96a78",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 10000
+      },
+      "costSummary": {
+        "cost": 0.002,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonCloudWatch",
+      "usageType": "USE1-DataProcessing-Bytes",
+      "operation": "PutLogEvents",
+      "location": "us-east-1",
+      "usageId": "257f12b5-2390-4a25-b73f-5a6fbef9dcbf",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.05
+      },
+      "costSummary": {
+        "cost": 0.025,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AWSLambda",
+      "usageType": "Lambda-Storage-GB-Second",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "2c5d0551-b763-4fa1-a5fa-b20e9799c81e",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "GB-Seconds",
+        "amount": 199.99999999999994
+      },
+      "costSummary": {
+        "cost": 0.000006179999999999998,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonCloudWatch",
+      "usageType": "USE1-S3-Egress-Bytes",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "84076d8c-b820-4acb-a04a-39e13b39fe6f",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "GB",
+        "amount": 0.05
+      },
+      "costSummary": {
+        "cost": 0.0125,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonApiGateway",
+      "usageType": "USE1-ApiGatewayRequest",
+      "operation": "ApiGatewayRequest",
+      "location": "us-east-1",
+      "usageId": "b9e92c23-89c9-4e67-b73a-4d992bf357c1",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "cen2",
+      "quantity": {
+        "unit": "USE1-AmazonApiGateway-Request",
+        "amount": 10000
+      },
+      "costSummary": {
+        "cost": 0.035,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonDynamoDB",
+      "usageType": "ReadRequestUnits",
+      "operation": "PayPerRequestThroughput",
+      "location": "us-east-1",
+      "usageId": "dfa1d3c0-7331-4673-8dc9-d54132036720",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "ReadRequestUnits",
+        "amount": 15000
+      },
+      "costSummary": {
+        "cost": 0.001875,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonDynamoDB",
+      "usageType": "WriteRequestUnits",
+      "operation": "PayPerRequestThroughput",
+      "location": "us-east-1",
+      "usageId": "fb7c76b5-2470-47ca-acee-c56d1bc25cf6",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "WriteRequestUnits",
+        "amount": 10000
+      },
+      "costSummary": {
+        "cost": 0.00625,
+        "currency": "USD",
+        "status": "new"
+      }
+    }
+  ]
+}

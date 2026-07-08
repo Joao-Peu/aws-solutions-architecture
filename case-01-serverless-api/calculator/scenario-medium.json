@@ -1,0 +1,148 @@
+{
+  "id": "c04e5bb1-0505-4fb7-a669-b1168cac1b56",
+  "name": "cena1",
+  "createdAt": "7 de julho de 2026 às 20:34 (UTC-3:00)",
+  "expiresAt": "7 de agosto de 2027 às 20:34 (UTC-3:00)",
+  "rateType": "BEFORE_DISCOUNTS",
+  "rateTimestamp": "7 de julho de 2026 às 20:34 (UTC-3:00)",
+  "status": "VALID",
+  "totalCostHistorical": 0,
+  "totalCostEstimated": 1.9390589999999999,
+  "currency": "USD",
+  "exportCreatedAt": "7 de julho de 2026 às 21:00 (UTC-3:00)",
+  "items": [
+    {
+      "serviceCode": "AmazonCloudWatch",
+      "usageType": "USE1-S3-Egress-Bytes",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "34992a74-2696-4470-bb7a-1bcbd03b6281",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "GB",
+        "amount": 2
+      },
+      "costSummary": {
+        "cost": 0.5,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AWSLambda",
+      "usageType": "Lambda-Storage-GB-Second",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "38229303-e30b-4e74-995b-b918fe5899a0",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "GB-Seconds",
+        "amount": 10000
+      },
+      "costSummary": {
+        "cost": 0.000309,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AWSLambda",
+      "usageType": "Request",
+      "operation": "",
+      "location": "us-east-1",
+      "usageId": "39f68cb3-6018-4c32-9171-e61b8af3430d",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "Requests",
+        "amount": 100000
+      },
+      "costSummary": {
+        "cost": 0.02,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonDynamoDB",
+      "usageType": "ReadRequestUnits",
+      "operation": "PayPerRequestThroughput",
+      "location": "us-east-1",
+      "usageId": "4dd72238-6cd9-4cef-8338-47fc6ef57b5d",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "ReadRequestUnits",
+        "amount": 50000
+      },
+      "costSummary": {
+        "cost": 0.00625,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonDynamoDB",
+      "usageType": "WriteRequestUnits",
+      "operation": "PayPerRequestThroughput",
+      "location": "us-east-1",
+      "usageId": "5a020e91-a2bb-43cb-8f19-9c156cf3694c",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "WriteRequestUnits",
+        "amount": 100000
+      },
+      "costSummary": {
+        "cost": 0.0625,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonApiGateway",
+      "usageType": "USE1-ApiGatewayRequest",
+      "operation": "ApiGatewayRequest",
+      "location": "us-east-1",
+      "usageId": "f63902f6-eaf8-4737-bdf3-5474d9daa44a",
+      "usageAccountId": 765959262094,
+      "accountName": "",
+      "group": "cen2",
+      "quantity": {
+        "unit": "USE1-AmazonApiGateway-Request",
+        "amount": 100000
+      },
+      "costSummary": {
+        "cost": 0.35,
+        "currency": "USD",
+        "status": "new"
+      }
+    },
+    {
+      "serviceCode": "AmazonCloudWatch",
+      "usageType": "USE1-DataProcessing-Bytes",
+      "operation": "PutLogEvents",
+      "location": "us-east-1",
+      "usageId": "fd56f767-e05e-4659-b7b6-e129a0127fc8",
+      "usageAccountId": REDACTED,
+      "accountName": "",
+      "group": "Cen01",
+      "quantity": {
+        "unit": "GB",
+        "amount": 2
+      },
+      "costSummary": {
+        "cost": 1,
+        "currency": "USD",
+        "status": "new"
+      }
+    }
+  ]
+}

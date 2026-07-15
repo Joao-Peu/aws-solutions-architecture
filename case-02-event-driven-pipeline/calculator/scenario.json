@@ -1,0 +1,52 @@
+{
+  "case": "02-event-driven-pipeline",
+  "calculator": "AWS Pricing Calculator",
+  "region": "us-east-1",
+  "currency": "USD",
+  "exportedAt": "2026-07-15",
+  "scenarios": {
+    "low": {
+      "description": "100 files/month, avg 10MB each",
+      "services": {
+        "AmazonS3": 0.03,
+        "AWSQueueService": 0.00,
+        "AWSLambda": 0.00,
+        "AmazonAthena": 0.00,
+        "AmazonCloudWatch": 0.04
+      },
+      "total": 0.07
+    },
+    "medium": {
+      "description": "1,000 files/month, avg 10MB each",
+      "services": {
+        "AmazonS3": 0.08,
+        "AWSQueueService": 0.00,
+        "AWSLambda": 0.00,
+        "AmazonAthena": 0.02,
+        "AmazonCloudWatch": 0.15
+      },
+      "total": 0.25
+    },
+    "high": {
+      "description": "10,000 files/month, avg 10MB each",
+      "services": {
+        "AmazonS3": 0.35,
+        "AWSQueueService": 0.04,
+        "AWSLambda": 0.02,
+        "AmazonAthena": 0.25,
+        "AmazonCloudWatch": 1.00
+      },
+      "total": 1.66
+    }
+  },
+  "assumptions": {
+    "lambdaMemoryMB": 512,
+    "lambdaDurationMs": 5000,
+    "athenaGBScannedPerQuery": 0.1,
+    "cloudWatchLogsLow": "0.5 GB",
+    "cloudWatchLogsMedium": "2 GB",
+    "cloudWatchLogsHigh": "10 GB",
+    "sqsType": "standard queue",
+    "dataTransferCosts": "not included"
+  }
+}

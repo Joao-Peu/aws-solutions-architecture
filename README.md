@@ -12,7 +12,7 @@ documenting diagrams, architectural decisions, and cost estimates.
 | # | Case | Services | Status |
 |---|------|----------|--------|
 | 01 | [Serverless API](./case-01-serverless-api/) | Lambda · API Gateway · DynamoDB · CloudWatch | ✅ Completed |
-| 02 | Event-driven Pipeline | SQS · Lambda · S3 · Athena | 🔜 Planned |
+| 02 | [Event-driven Pipeline](./case-02-event-driven-pipeline/) | S3 · SQS · Lambda · Athena · CloudWatch | ✅ Completed |
 | 03 | Containerized Microservices | ECS Fargate · RDS · ALB · ElastiCache | 🔜 Planned |
 
 ---
